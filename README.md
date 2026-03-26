@@ -93,4 +93,9 @@ Sinta-se livre para usar e modificar.
 Projeto criado com a ideia de unir **programação + criatividade + sentimento** ❤️
 
 ---
-##
+## 👨‍💻 Desenvolvido por:
+
+**Fábio Samuel**
+*   🌳 Técnico em Meio Ambiente - IFPA
+*   💻 Engenheiro de Software - UEPA
+*   📊 Cientista de Dados - Universidade Anhanguera
