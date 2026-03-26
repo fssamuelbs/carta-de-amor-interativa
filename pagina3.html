@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uma Cartinha Especial 💌</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    
+    <!-- Fontes do Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Quicksand", sans-serif;
+      }
+
+      h1 {
+        font-family: "Dancing Script", cursive;
+        font-size: 3em;
+      }
+
+      .carta-final {
+        font-size: 1.2em;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff0f6;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(255, 77, 109, 0.2);
+      }
+
+      .carta-final p {
+        margin-bottom: 1.2em;
+      }
+
+      .assinatura {
+        text-align: right;
+        margin-top: 40px;
+        font-style: italic;
+      }
+    </style>
+    ```
+  </head>
+
+  <body>
+    <div class="coracoes-container"></div>
+
+    ```
+    <div class="carta-final">
+      <h1>Se você está lendo isso...</h1>
+      <p>...é porque algo especial aconteceu. ❤️</p>
+
+      <p>
+        [Nome da pessoa],<br /><br />
+        Desde o momento em que tudo começou, algo mudou dentro de mim. Cada
+        conversa, cada risada e cada instante juntos foram se tornando
+        inesquecíveis.
+      </p>
+
+      <p>
+        Guardo com carinho todos os momentos: o primeiro sorriso, a primeira
+        conversa marcante, os pequenos detalhes que fizeram tudo ganhar sentido.
+      </p>
+
+      <p>
+        Com o tempo, percebi o quanto isso se tornou importante pra mim. E o
+        quanto estar ao seu lado faz tudo ficar mais leve.
+      </p>
+
+      <p>
+        Hoje, escrevo isso como forma de registrar esse sentimento e esse
+        momento especial que estamos vivendo.
+      </p>
+
+      <p>
+        Que isso seja apenas o começo de algo bonito...<br />
+        <em>Um capítulo que ainda está sendo escrito.</em> 💑📖✨
+      </p>
+
+      <a
+        href="pagina4.html"
+        class="botao"
+        style="margin-top: 20px; display: inline-block"
+      >
+        Ver galeria 📷
+      </a>
+
+      <p class="assinatura">
+        Com carinho,<br />
+        <strong>[Seu nome] 💖</strong>
+      </p>
+    </div>
+
+    <script>
+      const container = document.querySelector(".coracoes-container");
+
+      function criarCoracao() {
+        const coracao = document.createElement("div");
+        coracao.classList.add("coracao");
+        coracao.style.left = Math.random() * 100 + "vw";
+        coracao.style.animationDuration = Math.random() * 2 + 3 + "s";
+        coracao.innerText = "💖";
+        container.appendChild(coracao);
+
+        setTimeout(() => {
+          coracao.remove();
+        }, 5000);
+      }
+
+      setInterval(criarCoracao, 300);
+    </script>
+    
+  </body>
+</html>
