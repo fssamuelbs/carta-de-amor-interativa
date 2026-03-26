@@ -70,14 +70,15 @@ Seu site ficará disponível em:
 
 
 ```
-https://fssamuelbs.github.io/carta-interativa-de-amor
+https://site-carta-interativa-amor.netlify.app/
 ```
 
 ---
 
 ## 📸 Preview
 
-Adicione aqui uma imagem do projeto depois 👀
+<img width="1305" height="644" alt="image" src="https://github.com/user-attachments/assets/7c4412b5-9729-4932-a30f-e69c703e7be5" />
+
 
 ---
 
