@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para alguém especial 💌</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="coracoes-container"></div>
+
+    <div class="carta">
+      <h1>Querida pessoa especial,</h1>
+      <p>
+        Antes de qualquer coisa, respira fundo...<br />
+        Essa não é uma carta comum. É um pedacinho de carinho,
+        dessa vez em forma de código.
+      </p>
+      <p>
+        Aqui estão memórias, sentimentos e algo muito especial que eu quero te dizer.
+      </p>
+      <a href="pagina2.html" class="botao">Começar 💖</a>
+    </div>
+
+    <script>
+      const container = document.querySelector(".coracoes-container");
+
+      function criarCoracao() {
+        const coracao = document.createElement("div");
+        coracao.classList.add("coracao");
+        coracao.style.left = Math.random() * 100 + "vw";
+        coracao.style.animationDuration = Math.random() * 2 + 3 + "s";
+        coracao.innerText = "💖";
+        container.appendChild(coracao);
+
+        setTimeout(() => {
+          coracao.remove();
+        }, 5000);
+      }
+
+      setInterval(criarCoracao, 300);
+    </script>
+  </body>
+</html>
